@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582148482C3F9BD200D6D8A1 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582148472C3F9BD200D6D8A1 /* FavoritesView.swift */; };
+		5823D1812C3CBCCF008205BD /* Dessert_SecretsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823D1802C3CBCCF008205BD /* Dessert_SecretsApp.swift */; };
+		5823D1852C3CBCD0008205BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5823D1842C3CBCD0008205BD /* Assets.xcassets */; };
+		5823D1882C3CBCD0008205BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5823D1872C3CBCD0008205BD /* Preview Assets.xcassets */; };
+		58D619C12C3DE9A9009F4250 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D619C02C3DE9A9009F4250 /* SearchBar.swift */; };
+		58D619C32C3DEDF4009F4250 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D619C22C3DEDF4009F4250 /* Meal.swift */; };
+		58D619C52C3DEE38009F4250 /* MealsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D619C42C3DEE38009F4250 /* MealsResponse.swift */; };
+		58D619C72C3DEE89009F4250 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D619C62C3DEE89009F4250 /* MealDetail.swift */; };
+		58D619C92C3DEF96009F4250 /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D619C82C3DEF96009F4250 /* MealViewModel.swift */; };
+		58D619CB2C3DF068009F4250 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D619CA2C3DF068009F4250 /* ContentView.swift */; };
+		58D619CD2C3DF0F1009F4250 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D619CC2C3DF0F1009F4250 /* MealDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		582148472C3F9BD200D6D8A1 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		5823D17D2C3CBCCF008205BD /* Dessert Secrets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dessert Secrets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5823D1802C3CBCCF008205BD /* Dessert_SecretsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert_SecretsApp.swift; sourceTree = "<group>"; };
+		5823D1842C3CBCD0008205BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5823D1872C3CBCD0008205BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		588A9EFB2C3E4477007CFDF8 /* Dessert-Secrets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dessert-Secrets-Info.plist"; sourceTree = SOURCE_ROOT; };
+		58D619C02C3DE9A9009F4250 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		58D619C22C3DEDF4009F4250 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		58D619C42C3DEE38009F4250 /* MealsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsResponse.swift; sourceTree = "<group>"; };
+		58D619C62C3DEE89009F4250 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		58D619C82C3DEF96009F4250 /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		58D619CA2C3DF068009F4250 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58D619CC2C3DF0F1009F4250 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5823D17A2C3CBCCF008205BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5823D1742C3CBCCF008205BD = {
+			isa = PBXGroup;
+			children = (
+				5823D17F2C3CBCCF008205BD /* Dessert Secrets */,
+				5823D17E2C3CBCCF008205BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5823D17E2C3CBCCF008205BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5823D17D2C3CBCCF008205BD /* Dessert Secrets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5823D17F2C3CBCCF008205BD /* Dessert Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				588A9EFB2C3E4477007CFDF8 /* Dessert-Secrets-Info.plist */,
+				5823D1912C3CBD5F008205BD /* ViewModels */,
+				5823D18F2C3CBD4D008205BD /* Views */,
+				5823D18E2C3CBD46008205BD /* Models */,
+				5823D1802C3CBCCF008205BD /* Dessert_SecretsApp.swift */,
+				5823D1842C3CBCD0008205BD /* Assets.xcassets */,
+				5823D1862C3CBCD0008205BD /* Preview Content */,
+			);
+			path = "Dessert Secrets";
+			sourceTree = "<group>";
+		};
+		5823D1862C3CBCD0008205BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5823D1872C3CBCD0008205BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5823D18E2C3CBD46008205BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58D619C22C3DEDF4009F4250 /* Meal.swift */,
+				58D619C42C3DEE38009F4250 /* MealsResponse.swift */,
+				58D619C62C3DEE89009F4250 /* MealDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5823D18F2C3CBD4D008205BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58D619C02C3DE9A9009F4250 /* SearchBar.swift */,
+				58D619CA2C3DF068009F4250 /* ContentView.swift */,
+				58D619CC2C3DF0F1009F4250 /* MealDetailView.swift */,
+				582148472C3F9BD200D6D8A1 /* FavoritesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5823D1912C3CBD5F008205BD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				58D619C82C3DEF96009F4250 /* MealViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5823D17C2C3CBCCF008205BD /* Dessert Secrets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5823D18B2C3CBCD0008205BD /* Build configuration list for PBXNativeTarget "Dessert Secrets" */;
+			buildPhases = (
+				5823D1792C3CBCCF008205BD /* Sources */,
+				5823D17A2C3CBCCF008205BD /* Frameworks */,
+				5823D17B2C3CBCCF008205BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dessert Secrets";
+			productName = "Desert Secrets";
+			productReference = 5823D17D2C3CBCCF008205BD /* Dessert Secrets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5823D1752C3CBCCF008205BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5823D17C2C3CBCCF008205BD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5823D1782C3CBCCF008205BD /* Build configuration list for PBXProject "Dessert Secrets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5823D1742C3CBCCF008205BD;
+			productRefGroup = 5823D17E2C3CBCCF008205BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5823D17C2C3CBCCF008205BD /* Dessert Secrets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5823D17B2C3CBCCF008205BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5823D1882C3CBCD0008205BD /* Preview Assets.xcassets in Resources */,
+				5823D1852C3CBCD0008205BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5823D1792C3CBCCF008205BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D619CD2C3DF0F1009F4250 /* MealDetailView.swift in Sources */,
+				58D619C92C3DEF96009F4250 /* MealViewModel.swift in Sources */,
+				58D619CB2C3DF068009F4250 /* ContentView.swift in Sources */,
+				58D619C12C3DE9A9009F4250 /* SearchBar.swift in Sources */,
+				58D619C32C3DEDF4009F4250 /* Meal.swift in Sources */,
+				58D619C72C3DEE89009F4250 /* MealDetail.swift in Sources */,
+				5823D1812C3CBCCF008205BD /* Dessert_SecretsApp.swift in Sources */,
+				58D619C52C3DEE38009F4250 /* MealsResponse.swift in Sources */,
+				582148482C3F9BD200D6D8A1 /* FavoritesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5823D1892C3CBCD0008205BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5823D18A2C3CBCD0008205BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5823D18C2C3CBCD0008205BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dessert Secrets/Preview Content\"";
+				DEVELOPMENT_TEAM = B39YYYUG35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dessert-Secrets-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.splashh.Dessert-Secrets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5823D18D2C3CBCD0008205BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dessert Secrets/Preview Content\"";
+				DEVELOPMENT_TEAM = B39YYYUG35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dessert-Secrets-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.splashh.Dessert-Secrets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5823D1782C3CBCCF008205BD /* Build configuration list for PBXProject "Dessert Secrets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5823D1892C3CBCD0008205BD /* Debug */,
+				5823D18A2C3CBCD0008205BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5823D18B2C3CBCD0008205BD /* Build configuration list for PBXNativeTarget "Dessert Secrets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5823D18C2C3CBCD0008205BD /* Debug */,
+				5823D18D2C3CBCD0008205BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5823D1752C3CBCCF008205BD /* Project object */;
+}
